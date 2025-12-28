@@ -10,7 +10,7 @@ void print_array(int arr[], int n);
 
 int main() {
     setlocale(LC_CTYPE, "RUS");
-    int arr[] = { 1, -4, -5, -33, 17, -2, 8, 23, 25, 0, -12, 34, 88, -99,123,1001,-888 };
+    int arr[] = { 1, -4, -5, -33, 17, -2, 8, 23, 25, 0, -12, 34, 88, -99,123,1001 };
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("Исходный массив:\n");
